@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  background-color: cadetblue;
+  padding: 20px;
+  width: 1200px;
+  margin: 10px auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  
+}
+tr,th,td {
+  border: 1px solid;
+  padding: 8px;
+}
+.rollNO,.maxMarks,.studentsMarks,.studentTotal,.studentRemarks,.studentName{
+  width: 8%;
+}
+ .studentMarksList {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ }
+ .tablewidth {
+  width: 40%;
+  padding: 10px;
+
+ }
+ caption {
+  font-size: 1.5rem;
+ }
